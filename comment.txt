@@ -1,1 +1,9 @@
 test comment
+
+select 
+  * 
+from 
+  test_table a
+where
+  left(a.test,4) = 'test' and
+  a.test3 = 'comment'
